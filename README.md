@@ -4,27 +4,27 @@
 This guide explains how to manage file and directory permissions using Access Control Lists (ACL) in Linux. It includes examples of basic file operations, ACL modifications, and recursive permission management.
 
 # Table of Contents
-1.[Commands Overview](#commands-overview)
+1.[Commands Overview](#1commands-overview)
 
-2.[Viewing ACL Permissions](#viewing-acl-permission)
+2.[Viewing ACL Permissions](#2viewing-acl-permissions)
 
-3.[Modifying ACL for user and group](#modifying-acl-for-user-and-group)
+3.[Modifying ACL for user and group](#3modifying-acl-for-user-and-group)
 - [For a User](#for-a-user)
-- [For a Group](#for-a-group)
+- [For a Group](#for-group)
 
-4.[Modifying Other Permissions](#modifying-other-permissions)
+4.[Modifying Other Permissions](#4modifying-other-permissions)
 
-5.[Adding Multiple ACL Rules](#adding-multiple-acl-rules)
+5.[Adding Multiple ACL Rules](#5adding-multiple-acl-rules)
 
-6.[Setting Mask Permissions](#setting-mask-permission)
+6.[Setting Mask Permissions](#6setting-mask-permissions)
 
-7.[Recursive Permissions for a Directory](#recursive-permission-for-a-directory)
+7.[Recursive Permissions for a Directory](#7recursive-permissions-for-directory)
 
-8.[Removing ACL for a User](#removing-acl-for-a-user)
+8.[Removing ACL for a User](#8removing-acl-for-a-user)
 
-9.[Resetting All ACL Permissions](#resetting-all-acl-permission)
+9.[Resetting All ACL Permissions](#9resetting-all-acl-permissions)
 
-10.[Setting Default ACL for a Directory](#setting-default-acl-for-a-directory)
+10.[Setting Default ACL for a Directory](#10setting-default-acl-for-a-directory)
 
 # 1.Commands Overview
 1. **View ACL of a file**
